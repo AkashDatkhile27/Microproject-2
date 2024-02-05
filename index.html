@@ -1,105 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+            <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+            <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+            <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+            <title>Micro Project 2</title>
+        </head>
+        <body>
+            <!-- Nav Bar -->
+            <nav class="navbar">
+                <div class="Dappr">Dappr</div>
+                    <div class="link">
+                        <a href="#Home" id="home">Home</a>
+                        <a href="#About-Us" id="home">About Us</a>
+                        <a href="#Information"id="home">Information</a>
+                        <a id="home">More<span id="symbol"> > </span></a>
+                    </div>
+
+                    <div class="Searchbar">
+                        <input type="text" name="search" id="search" placeholder="Search..." />
+                         <img src="./image/search-icon.png" alt="search" id="searchbar">
+                    </div>
+
+                    <div class="option-icon">
+                        <img src="./image/option-icon.png" alt="option" id="option-icon">
+                    </div>
+            </nav>
+
+            <!-- Main Body Containing  All Three Conatiners-->
+            <div class="main">
+
+                <!-- Contains Image and Textarea -->
+                <div class="Container-1">
+                    <div class="left-image">
+                        <img src="./image/code.png" alt="code image" id="image1">
+                    </div>
+                    <!-- text area -->
+                    <div class="right-textbox">                    
+                        <textarea name="text" id="text-Field" cols="30" rows="10" >        It's not only writers who can benefit from this free online tool. If 
+                        you're a programmer who's working on a 
+                        </textarea>
+                    </div>
+                </div>
+                <!-- End Of Container 1 -->
 
 
-    <title>Micro Project 2</title>
-</head>
-<body>
+                <!-- Social Media Icon -->
+                <div class="social-media-position">
+                    <div class="social-media">
+                        <div class="Whatapp"><img src="./image/whatsapp-icon.png" id="wp"></div>
+                        <div class="facebook"><img src="./image/facebook.png" id="fb"></div>
+                        <div class="twitter"><img src="./image/twitter.png" id="X"></div>
+                    </div>
+                </div>  
 
+                <!-- Container 2 Contains 4 Tabs -->
+                <div class="Container-2">
+                    <div class="ractangle1">
+                        <p class="text2"> Total Question's <br>200,000</p>
+                    </div>
+                    <div class="ractangle2">
+                        <p class="text3"> Total Answer's <br>105,000</p>
+                    </div>
+                    <div class="ractangle3">
+                        <p class="text4"> Participated <br>10,000</p>
+                    </div>
+                    <div class="ractangle4">
+                        <p class="text5"> Total Passed<br>6,000</p>
+                    </div>
+                </div>
+                <!-- End of Container 2 -->
 
-    <nav class="navbar">
-            <div class="Dappr">Dappr</div>
-            <div class="link">
-                <a href="#Home" id="home">Home</a>
-                <a href="#About-Us" id="home">About Us</a>
-                <a href="#Information"id="home">Information</a>
-                <a id="home">More<span id="symbol"> > </span></a>
+                <!-- Conatiner 3 contains Buttons and Information -->
+                <div class="block">        
+                    <div class="Container-3">
 
+                        <div class="block-1">
+                            <button id="button1">Your Info</button>
+                            <button id="button2">Bookmark</button>
+                            <button id="button3">Setting</button>
+                        </div>
+                         <!--End of Block 1  -->
+
+                        <div class="block-2">
+                            <div id="heading1">Your Information</div>
+                            <div class="NameInfo">
+                                <span id="Name">Name&nbsp;&nbsp;:&nbsp;&nbsp;</span>
+                                <span id="name">Atul Singhal</span>
+                            </div>
+                            <div class="EmailInfo">
+                                <span id="Email">Email&nbsp;&nbsp;:&nbsp;&nbsp;</span>
+                                <span id="email">atul@gmail.com</span>
+                            </div>
+                            <div class="PhoneInfo">
+                                <span id="Phone">Phone&nbsp;:&nbsp;&nbsp;</span>
+                                <span id="phone">+91 8131424888</span>
+                            </div>
+                            <div class="MarkInfo">
+                                <span id="Marks">Marks&nbsp;:&nbsp;&nbsp;</span>
+                                <span id="marks">500</span>
+                            </div>
+                            <div class="Next-Button">
+                                <button id="next">Next&rarr;</button>
+                            </div>
+
+                        </div>
+                        <!-- End of Block 2 -->
+                     </div>
+                </div>       
+                <!-- End of Conatiner 3  -->
             </div>
-            <div class="Searchbar">
-                <input type="text" name="search" id="search" placeholder="Search..." />
-               
-                <img src="./image/search-icon.png" alt="search" id="searchbar">
+            <!-- End of main Div -->
+                
+            <div class="support">
+                <img src="./image/support.png" alt="Supprt " id="support" height="60">
             </div>
-            <div class="option-icon">
-                <img src="./image/option-icon.png" alt="option" id="option-icon">
-            </div>
-    </nav>
-    <div class="main">
-    <div class="Container-1">
-        <div class="left-image"><img src="./image/code.png" alt="code image" id="image1"></div>
-         <div class="right-textbox">
-        <!-- text area -->
-         <textarea name="text" id="text-Field" cols="30" rows="10" >        It's not only writers who can benefit from this free online tool. If 
-        you're a programmer who's working on a 
-        </textarea></div>
-    </div>
-    <div class="social-media-position">
-        <div class="social-media">
-            <div class="Whatapp"><img src="./image/whatsapp-icon.png" id="wp"></div>
-            <div class="facebook"><img src="./image/facebook.png" id="fb"></div>
-            <div class="twitter"><img src="./image/twitter.png" id="X"></div>
-        </div>
-        </div>  
-
-
-    <div class="Container-2">
-        <div class="ractangle1">
-            <p class="text2"> Total Question's <br>    
-             200,000</p>
-         </div>
-         <div class="ractangle2">
-             <p class="text3"> Total Answer's <br>    
-                 105,000</p>
-         </div>
-         <div class="ractangle3">
-             <p class="text4"> Participated <br>    
-                 10,000</p>
-         </div>
-         <div class="ractangle4">
-             <p class="text5"> Total Passed<br>    
-                 6,000</p>
-         </div>
-    </div>
-
-
-    <div class="block3">
-<!--  -->
-    <div class="Container-3">
-        <div class="block-1">
-            <button id="button1">Your Info</button>
-            <button id="button2">Bookmark</button>
-            <button id="button3">Setting</button>
-        </div> 
-        <div class="block-2">
-             <div id="heading1">Your Information</div>
-            <div class="NameInfo"> <span id="Name">Name&nbsp;&nbsp;:&nbsp;&nbsp;</span><span id="name">Atul Singhal</span></div>
-            <div class="EmailInfo"><span id="Email">Email&nbsp;&nbsp;:&nbsp;&nbsp;</span><span id="email">atul@gmail.com</span></div>
-            <div class="PhoneInfo"><span id="Phone">Phone&nbsp;:&nbsp;&nbsp;</span><span id="phone">+91 8131424888</span></div>
-            <div class="MarkInfo"><span id="Marks">Marks&nbsp;:&nbsp;&nbsp;</span><span id="marks">500</span></div>
-            <div class="Next-Button"><button id="next">Next&rarr;</button></div>
-        </div>
-    </div>
-    </div>
-    
-    </div>
-    
-<div class="support">
-    <img src="./image/support.png" alt="Supprt " id="support" height="60">
-</div>
-<div class="space"> </div>
-
-
-
-
-
-</body>
+            <div class="space"></div>
+    </body>
 </html>
